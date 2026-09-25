@@ -1,140 +1,469 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AAA Toys | Premium Toy Store in Dhuri</title>
-<meta name="description" content="AAA Toys - premium toys, educational gifts, and joyful play essentials in Dhuri, Punjab.">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AAA Toys | Dhuri</title>
+<meta name="description" content="AAA Toys in Dhuri — colorful toys, games, educational toys and amazing deals.">
 <style>
-:root{--bg:#fffaf5;--card:#fff;--ink:#1b2030;--muted:#676a72;--gold:#c89245;--gold-soft:#f4dfbd;--rose:#f0d5d2;--rose-deep:#d8a59f;--sky:#dfeffc;--line:#eadfce;--shadow:0 24px 60px rgba(27,32,48,.08)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif}.row,header .navin,.top .wrap,.productMeta,.ctaRow,.statsRow,.trustRow{display:flex;align-items:center;justify-content:space-between;gap:18px}img{max-width:100%;display:block}a{text-decoration:none;color:inherit}button,input,textarea{font:inherit}.wrap{width:min(1160px,calc(100% - 32px));margin:auto}.top{background:var(--ink);color:#fff;padding:10px 0;font-size:12px;letter-spacing:.2px}.top a{color:#fff}.header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);backdrop-filter:blur(14px);border-bottom:1px solid #eee}.navin{min-height:78px}.logo{font-size:1.7rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;line-height:1}.logo span{display:block;font-size:.65rem;letter-spacing:.42em;color:var(--gold);font-weight:700}.menuBtn{display:none;border:1px solid #ddd;background:#fff;border-radius:10px;padding:8px 12px;font-size:22px;cursor:pointer}.navLinks{display:flex;gap:28px;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#2f3542}.navLinks a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;border:none;cursor:pointer;border-radius:999px;padding:14px 22px;font-weight:800;font-size:.76rem;letter-spacing:.12em;text-transform:uppercase}.btn.gold{background:var(--gold);color:#fff;box-shadow:0 14px 28px rgba(200,146,69,.32)}.btn.dark{background:var(--ink);color:#fff}.btn.light{border:1px solid #dfd4c6;background:#fff}.cartBtn{position:relative}.count{position:absolute;top:-8px;right:-12px;background:var(--gold);color:#fff;border-radius:999px;padding:4px 7px;font-size:.68rem}.hero{padding:80px 0;background:radial-gradient(circle at top left,#f6e6d3 0,#fffaf5 38%,#fff 72%)}.heroGrid{display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}.kicker{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--gold-soft);color:#7d5a2a;font-weight:700;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}.hero h1{font-size:clamp(3.1rem,7vw,6rem);line-height:.9;letter-spacing:-.06em;margin:20px 0 16px;font-weight:700}.hero h1 em{color:var(--gold);font-style:normal}.hero p{font-size:1.05rem;line-height:1.8;color:var(--muted);max-width:560px;margin:0}.ctaRow{margin-top:26px;flex-wrap:wrap}.meta{margin-top:26px;display:flex;flex-wrap:wrap;gap:28px}.meta div strong{display:block;font-size:1.6rem;letter-spacing:-.04em}.meta div span{font-size:.72rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted)}.heroVisual{position:relative;min-height:500px}.heroVisual .heroCard{position:absolute;inset:auto auto 0 0;max-width:300px;background:rgba(255,255,255,.9);backdrop-filter:blur(16px);padding:18px;border-radius:24px;box-shadow:var(--shadow)}.heroVisual .heroCard.right{right:0;left:auto;top:20px}.heroVisual .heroProduct{height:470px;border-radius:32px;background:url('https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1000&q=80') center/cover;box-shadow:var(--shadow)}.heroVisual .label{display:inline-block;background:var(--rose);padding:8px 10px;border-radius:999px;font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:#5d4a46}.heroVisual .heroCard h3{margin:12px 0 6px;font-size:1.15rem}.heroVisual .heroCard p{margin:0;color:var(--muted);font-size:.76rem;line-height:1.7}.heroVisual .price{margin-top:12px;display:flex;justify-content:space-between;align-items:center;font-weight:900}.section{padding:90px 0}.sectionHead{text-align:center;margin-bottom:36px}.sectionHead h2{font-size:clamp(2.2rem,5vw,3.2rem);letter-spacing:-.06em;margin:10px 0 12px;font-weight:700}.sectionHead p{margin:0;color:var(--muted);font-size:1rem;line-height:1.8}.filters{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin:26px 0 30px}.filter{border:1px solid #e4dac7;background:transparent;color:var(--ink);padding:11px 16px;border-radius:999px;cursor:pointer;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700}.filter.active,.filter:hover{background:var(--ink);color:#fff}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.product{position:relative;background:var(--card);padding:12px;border-radius:26px;box-shadow:var(--shadow);overflow:hidden}.product.hidden{display:none}.badge{position:absolute;top:18px;left:18px;z-index:2;background:var(--gold);color:#fff;padding:7px 10px;border-radius:999px;font-size:.67rem;letter-spacing:.12em;text-transform:uppercase;font-weight:800}.productImage{height:245px;border-radius:20px;overflow:hidden}.productImage img{width:100%;height:245px;object-fit:cover;transition:transform .35s ease}.product:hover .productImage img{transform:scale(1.06)}.productBody{padding:18px 8px 10px}.productBody h3{margin:0 0 8px;font-size:1.22rem;letter-spacing:-.04em}.productBody p{margin:0;color:var(--muted);font-size:.84rem;line-height:1.7;min-height:42px}.productMeta{margin-top:14px}.price{font-size:1.5rem;font-weight:900;letter-spacing:-.04em}.price small{font-size:.78rem;color:var(--muted);font-weight:700;text-decoration:line-through;margin-left:8px}.addBtn{padding:11px 15px;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.featureCard{background:#fff;border:1px solid #eadfce;padding:26px 22px;border-radius:22px;box-shadow:var(--shadow)}.featureIcon{width:56px;height:56px;border-radius:16px;background:linear-gradient(135deg,var(--gold-soft),#fff6eb);display:grid;place-items:center;font-size:1.7rem}.featureCard h3{margin:18px 0 10px;font-size:1.35rem;letter-spacing:-.04em}.featureCard p{margin:0;color:var(--muted);line-height:1.8}.storyWrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}.storyPanel{background:linear-gradient(140deg,#1b2030,#2f3648);color:#fff;padding:50px 40px;border-radius:30px;box-shadow:var(--shadow)}.storyPanel h2{margin:10px 0 14px;font-size:clamp(2.2rem,4vw,3rem);letter-spacing:-.06em;font-weight:700}.storyPanel p{margin:0;color:#dadbe2;line-height:1.9;font-size:1rem}.storyImage{height:440px;border-radius:30px;background:url('https://images.unsplash.com/photo-1519345182560-3f2917c472ef?auto=format&fit=crop&w=1000&q=80') center/cover;box-shadow:var(--shadow)}.testimonialGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.quote{background:#fff;border:1px solid #eadfce;border-radius:22px;padding:24px;box-shadow:var(--shadow)}.stars{font-size:1rem;letter-spacing:.12em;color:#f4b941;margin-bottom:12px}.quote p{margin:0;color:var(--muted);line-height:1.9}.person{margin-top:18px;display:flex;gap:12px;align-items:center}.avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--gold-soft),#ffe6cc);display:grid;place-items:center;font-weight:700}.faqWrap{display:grid;grid-template-columns:1fr 1fr;gap:20px}.faqItem{background:#fff;border:1px solid #eadfce;border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}.faqQuestion{width:100%;padding:20px 24px;border:0;background:none;text-align:left;font-weight:700;font-size:1rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center}.faqAnswer{padding:0 24px 22px;color:var(--muted);line-height:1.8;display:none}.faqItem.open .faqAnswer{display:block}.faqItem.open .faqQuestion span:last-child{transform:rotate(45deg)}.faqQuestion span:last-child{font-size:1.6rem;line-height:1;transition:.2s}.ctaBanner{padding:30px;border-radius:28px;background:linear-gradient(120deg,#1b2030,#2e3445);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:18px;box-shadow:var(--shadow);flex-wrap:wrap}.ctaBanner h3{margin:0 0 8px;font-size:clamp(1.8rem,3vw,2.5rem);letter-spacing:-.06em}.ctaBanner p{margin:0;color:#c9d4df}.cart{position:fixed;right:0;top:0;width:min(390px,100%);height:100vh;background:#fff;z-index:30;transform:translateX(105%);transition:transform .25s ease;box-shadow:-16px 0 40px rgba(0,0,0,.15);display:flex;flex-direction:column}.cart.open{transform:none}.cartHead{padding:20px 22px;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center}.cartHead h3{margin:0;font-size:1.4rem}.closeCart{border:0;background:none;font-size:2rem;cursor:pointer}.cartBody{padding:18px 22px;overflow:auto;flex:1}.cartItem{display:flex;gap:12px;padding:14px 0;border-bottom:1px solid #eee}.cartItem img{width:72px;height:72px;object-fit:cover;border-radius:12px}.cartItemMeta{flex:1}.cartItemMeta strong{display:block;font-size:1rem}.cartItemMeta span{display:block;font-size:.82rem;color:var(--muted);margin-top:4px}.qtyRow{margin-top:10px;display:flex;justify-content:space-between;align-items:center}.qtyControls{display:inline-flex;align-items:center;border:1px solid #e5ddd0;border-radius:999px;overflow:hidden}.qtyControls button{border:0;background:#f6efe6;font-size:1.15rem;padding:6px 10px;cursor:pointer}.qtyControls span{padding:0 12px;font-weight:700}.remove{border:0;background:none;color:#9c4b4b;font-weight:700;cursor:pointer}.cartFooter{padding:20px 22px;border-top:1px solid #eee}.totalRow{display:flex;justify-content:space-between;font-weight:800;margin-bottom:16px}.checkout{width:100%;text-align:center}.empty{color:var(--muted);text-align:center;padding:30px 0}.@media(max-width:960px){.gallery{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:1fr}.storyWrap,.faqWrap,.heroGrid,.testimonialGrid{grid-template-columns:1fr}.heroVisual{min-height:420px}.navLinks{display:none;position:absolute;left:16px;right:16px;top:77px;background:#fff;padding:18px;border-radius:16px;border:1px solid #eee;flex-direction:column;gap:14px;box-shadow:var(--shadow)}.navLinks.open{display:flex}.menuBtn{display:block}}@media(max-width:560px){.gallery{grid-template-columns:1fr}.hero h1{font-size:3.2rem}.heroVisual .heroCard{position:static;max-width:none;margin-top:18px}.heroVisual .heroProduct{height:320px}.ctaBanner{padding:22px}.section{padding:70px 0}.meta{gap:14px}.meta div strong{font-size:1.2rem}}
+:root{
+  --pink:#ff4f87;
+  --pink-soft:#ffe0ec;
+  --yellow:#ffc857;
+  --yellow-soft:#fff0bd;
+  --blue:#4d9de0;
+  --blue-soft:#dff3ff;
+  --purple:#8d6df6;
+  --green:#43c59e;
+  --ink:#172033;
+  --muted:#5e6677;
+  --bg:#fff9f3;
+  --white:#ffffff;
+  --shadow:0 20px 50px rgba(23,32,51,.12);
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink)}
+a{text-decoration:none;color:inherit}img{max-width:100%;display:block}button,input{font:inherit}button{cursor:pointer}
+.wrap{width:min(1120px,calc(100% - 30px));margin:auto}
+.topbar{background:var(--ink);color:#fff;padding:10px 0;font-size:13px}.topbar .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center}.topbar a{color:#fff}
+header.site-header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid rgba(23,32,51,.06)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:76px;position:relative}
+.logo{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.logo-mark{width:42px;height:42px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,var(--pink),var(--yellow));color:#fff;font-weight:900;box-shadow:0 12px 24px rgba(255,79,135,.28)}
+.logo-text{font-size:1.65rem;font-weight:900;letter-spacing:-.05em}
+.nav-links{display:flex;align-items:center;gap:28px;font-weight:800;color:#394154;font-size:.82rem;text-transform:uppercase;letter-spacing:.08em}
+.nav-links a{padding:8px 0;position:relative;transition:.2s ease}
+.nav-links a::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:3px;border-radius:999px;background:var(--pink);transform:scaleX(0);transition:transform .2s ease}
+.nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1)}
+.nav-actions{display:flex;align-items:center;gap:12px}
+.search-box{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid #ecded5;border-radius:999px;padding:10px 14px;box-shadow:0 10px 25px rgba(23,32,51,.04)}
+.search-box input{border:0;outline:0;background:transparent;width:180px;color:var(--ink)}
+.search-box input::placeholder{color:#8b93a5}
+.btn{border:0;border-radius:999px;padding:13px 18px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;transition:transform .2s ease, box-shadow .2s ease}
+.btn:hover{transform:translateY(-2px)}
+.btn.primary{background:linear-gradient(135deg,var(--pink),#ff7d5f);color:#fff;box-shadow:0 16px 24px rgba(255,79,135,.22)}
+.btn.secondary{background:#fff;color:var(--ink);border:1px solid #eedfdb}
+.menu-btn{display:none;border:0;background:#fff;border:1px solid #ebdcdc;border-radius:12px;padding:10px 12px;font-size:20px}
+.hero{padding:56px 0 40px;background:radial-gradient(circle at top left,#ffe8a8 0%,var(--bg) 30%,var(--bg) 100%)}
+.hero-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:38px}
+.eyebrow{display:inline-block;background:var(--yellow-soft);color:#74581d;padding:8px 12px;border-radius:999px;font-weight:800;font-size:12px;text-transform:uppercase;letter-spacing:.12em}
+.hero h1{font-size:clamp(2.8rem,7vw,5.7rem);line-height:.95;letter-spacing:-.065em;margin:22px 0 16px;animation:fadeUp .8s ease}
+.hero h1 .pink{color:var(--pink)}
+.hero p{color:var(--muted);font-size:1.08rem;line-height:1.8;max-width:560px;margin:0}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.hero-stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:26px}
+.hero-stats div strong{display:block;font-size:1.6rem;letter-spacing:-.04em}.hero-stats div span{display:block;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.12em}
+.visual{position:relative;min-height:520px;animation:floatY 5s ease-in-out infinite alternate}
+.visual-card{position:absolute;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);padding:18px 16px;border-radius:24px;box-shadow:var(--shadow);max-width:280px}
+.visual-card.one{left:0;bottom:18px}
+.visual-card.two{right:0;top:40px}
+.badge{display:inline-block;background:var(--pink-soft);color:#a52f5f;border-radius:999px;padding:7px 10px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}
+.visual-card h3{margin:12px 0 6px;font-size:1.15rem}.visual-card p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+.visual-card .price{display:flex;justify-content:space-between;align-items:center;font-weight:900;margin-top:12px}
+.hero-show{height:500px;border-radius:34px;background:url('https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1200&q=80') center/cover;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.hero-show::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,79,135,.18),rgba(77,157,224,.10),rgba(255,200,87,.18))}
+.section{padding:76px 0}
+.section-head{margin-bottom:18px;text-align:center}
+.section-head h2{font-size:clamp(2.2rem,4vw,3.2rem);letter-spacing:-.06em;margin:12px 0 8px}
+.section-head p{margin:0 auto;color:var(--muted);max-width:620px;line-height:1.8}
+.category-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:28px}
+.cat-card{background:#fff;border:1px solid #f0e2d9;border-radius:24px;padding:22px 16px;text-align:center;transition:.25s ease;box-shadow:0 10px 22px rgba(23,32,51,.04)}
+.cat-card:hover{transform:translateY(-6px);box-shadow:0 18px 35px rgba(23,32,51,.08)}
+.cat-icon{font-size:2.3rem;margin-bottom:8px}
+.cat-card h3{margin:0;font-size:1rem}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:28px}
+.product-card{background:#fff;border:1px solid #f2e7e0;border-radius:24px;padding:12px;box-shadow:0 10px 24px rgba(23,32,51,.04);transition:transform .25s ease, box-shadow .25s ease;animation:fadeUp .7s ease both}
+.product-card:hover{transform:translateY(-6px);box-shadow:0 18px 30px rgba(23,32,51,.09)}
+.product-image{height:220px;border-radius:18px;overflow:hidden;position:relative}
+.product-image img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+.product-card:hover .product-image img{transform:scale(1.08)}
+.tag{position:absolute;top:12px;left:12px;background:var(--yellow);color:#5b4c12;border-radius:999px;padding:6px 10px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.product-body{padding:16px 8px 10px}
+.product-body h3{margin:0 0 8px;font-size:1.2rem;letter-spacing:-.04em}.product-body p{margin:0;color:var(--muted);font-size:.85rem;line-height:1.7;min-height:42px}
+.product-meta{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:14px}
+.price{font-weight:900;font-size:1.4rem;letter-spacing:-.04em}
+.price small{font-size:.75rem;color:var(--muted);text-decoration:line-through;font-weight:700}
+.small-btn{padding:10px 14px;font-size:11px;letter-spacing:.12em}
+.banner{margin-top:28px;border-radius:28px;padding:30px;background:linear-gradient(135deg,#ffe598,#ffd6e5);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;box-shadow:var(--shadow)}
+.banner h3{margin:0;font-size:clamp(1.8rem,4vw,2.8rem);letter-spacing:-.06em}
+.banner p{margin:6px 0 0;color:#5b4c12}
+.offer-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:28px}
+.offer-card{background:#fff;border:1px solid #f1e4db;border-radius:24px;padding:26px 20px;box-shadow:0 10px 20px rgba(23,32,51,.04)}
+.offer-card .icon{width:58px;height:58px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,var(--pink-soft),var(--yellow-soft));font-size:1.8rem;margin-bottom:16px}
+.offer-card h3{margin:0 0 8px;font-size:1.2rem}.offer-card p{margin:0;color:var(--muted);line-height:1.8}
+.reviews{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:28px}
+.review{background:#fff;border:1px solid #f1e4db;border-radius:22px;padding:22px;box-shadow:0 10px 22px rgba(23,32,51,.04)}
+.stars{letter-spacing:.15em;color:#f4b749;margin-bottom:8px}.review p{margin:0;color:var(--muted);line-height:1.8}.person{display:flex;align-items:center;gap:12px;margin-top:18px}
+.avatar{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue-soft),var(--pink-soft));font-weight:900}
+.contact-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:20px;margin-top:28px}
+.info-card,.contact-card{background:#fff;border:1px solid #f1e4db;border-radius:26px;padding:28px;box-shadow:var(--shadow)}
+.info-card h3,.contact-card h3{margin:0 0 12px;font-size:1.5rem}
+.info-list{margin-top:18px;display:grid;gap:14px;color:var(--muted)}
+.info-item{display:flex;align-items:center;gap:12px}
+.info-icon{width:42px;height:42px;border-radius:12px;background:var(--yellow-soft);display:grid;place-items:center;font-size:1.2rem}
+.contact-card form{display:grid;gap:12px}
+.contact-card input,.contact-card textarea{width:100%;padding:13px 14px;border:1px solid #ebdee5;border-radius:14px;background:#fff;outline:none}
+.contact-card textarea{min-height:120px;resize:vertical}
+.footer{background:var(--ink);color:#fff;padding:28px 0;margin-top:40px}
+.footer .wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center}
+.footer span{font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:#dfe6f4}
+.greeting-popup{position:fixed;inset:0;background:rgba(10,15,25,.28);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;opacity:0;pointer-events:none;transition:opacity .25s ease}
+.greeting-popup.show{opacity:1;pointer-events:auto}
+.popup-card{width:min(520px,100%);border-radius:30px;background:linear-gradient(135deg,#fff6c7,#ffe2ec 52%,#dff6ff);padding:28px 28px 22px;position:relative;box-shadow:0 25px 60px rgba(23,32,51,.18);border:1px solid rgba(255,255,255,.5);animation:popupIn .35s ease}
+.close-popup{position:absolute;top:14px;right:16px;border:0;background:#fff;border-radius:50%;width:38px;height:38px;display:grid;place-items:center;font-size:1.4rem;box-shadow:0 10px 20px rgba(23,32,51,.12)}
+.popup-card .mini{display:inline-block;background:#fff;border-radius:999px;padding:7px 12px;font-weight:800;border:1px solid rgba(23,32,51,.06);color:var(--ink)}
+.popup-card h3{font-size:clamp(1.9rem,4vw,2.8rem);letter-spacing:-.06em;margin:18px 0 12px}
+.popup-card p{margin:0;color:var(--muted);line-height:1.8}
+.popup-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.modal{position:fixed;inset:0;background:rgba(11,15,25,.4);display:flex;align-items:center;justify-content:center;padding:20px;z-index:90;opacity:0;pointer-events:none;transition:opacity .25s ease}
+.modal.show{opacity:1;pointer-events:auto}
+.modal-card{background:#fff;border-radius:28px;max-width:760px;width:100%;box-shadow:0 25px 60px rgba(23,32,51,.18);padding:18px;position:relative;transform:translateY(18px);transition:transform .25s ease}
+.modal.show .modal-card{transform:translateY(0)}
+.modal-close{position:absolute;right:18px;top:16px;border:0;background:#fff;border:1px solid #efdfda;border-radius:50%;width:36px;height:36px;display:grid;place-items:center;font-size:1.3rem}
+.modal-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:16px}
+.modal-image{height:100%;min-height:260px;border-radius:22px;background-size:cover;background-position:center}
+.modal-info{padding:16px 12px 10px 0}
+.modal-info h3{margin:0 0 8px;font-size:2rem;letter-spacing:-.05em}.modal-info p{margin:0;color:var(--muted);line-height:1.8}.modal-price{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px}
+.modal-price strong{font-size:2rem;letter-spacing:-.05em}
+.modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.modal-meta{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+.meta-box{background:var(--bg);border-radius:18px;padding:12px 10px;text-align:center}
+.meta-box strong{display:block;font-size:1.2rem}.meta-box span{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}
+.hidden{display:none !important}
+@keyframes fadeUp{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:none}}
+@keyframes floatY{from{transform:translateY(0)}to{transform:translateY(-12px)}}
+@keyframes popupIn{from{opacity:0;transform:translateY(12px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:960px){
+  .products{grid-template-columns:repeat(2,1fr)}
+  .category-grid{grid-template-columns:repeat(3,1fr)}
+  .offer-grid,.reviews,.contact-wrap,.modal-grid{grid-template-columns:1fr}
+  .nav-links{display:none;position:absolute;left:16px;right:16px;top:78px;background:#fff;border:1px solid #eee;border-radius:18px;padding:18px;flex-direction:column;box-shadow:var(--shadow)}
+  .nav-links.open{display:flex}
+  .menu-btn{display:block}
+  .hero-grid{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  .products,.category-grid{grid-template-columns:1fr 1fr}
+  .nav-actions .search-box{display:none}.hero h1{font-size:2.8rem}.visual{min-height:420px}.hero-show{height:360px}.visual-card{position:static;max-width:none;margin-top:14px}.banner{padding:22px}.footer .wrap{justify-content:center;text-align:center}.section{padding:60px 0}
+}
 </style>
 </head>
 <body>
-<div class="top"><div class="wrap"><span>📍 Dhuri, Punjab</span><span>📞 <a href="tel:9855400520">9855400520</a> · WhatsApp <a href="https://wa.me/919855400520" target="_blank">AAA Toys</a></span></div></div>
-<header class="header"><div class="wrap navin"><a class="logo" href="#home">AAA Toys<span>Play beautifully</span></a><button class="menuBtn" aria-label="Open menu">☰</button><nav class="navLinks"><a href="#home">Home</a><a href="#shop">Shop</a><a href="#features">Why choose us</a><a href="#reviews">Reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></nav><button class="btn dark cartBtn" onclick="toggleCart()">Bag <span class="count">0</span></button></div></header>
+<div class="topbar"><div class="wrap"><span>📍 Dhuri, Punjab</span><span>📞 <a href="tel:9855400520">9855400520</a> · WhatsApp <a href="https://wa.me/919855400520" target="_blank">AAA Toys</a></span></div></div>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="#home" aria-label="AAA Toys home">
+      <span class="logo-mark">A</span>
+      <span class="logo-text">AAA Toys</span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <label class="search-box" aria-label="Search products">
+        <span>🔎</span>
+        <input id="searchInput" type="text" placeholder="Search toys" />
+      </label>
+      <button class="btn primary" onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">Shop Now</button>
+      <button class="menu-btn" aria-label="Open menu" id="menuBtn">☰</button>
+    </div>
+  </div>
+</header>
+
 <main id="home">
-<section class="hero"><div class="wrap heroGrid">
-<div>
-<span class="kicker">Joyful gifting starts here</span>
-<h1>Play bigger.<br><em>Smile brighter.</em></h1>
-<p>Discover thoughtful toys, premium gifts, and happy little moments for children and families across Dhuri. Curated for wonder, learning, and long-lasting smiles.</p>
-<div class="ctaRow"><a class="btn gold" href="#shop">Explore collection</a><a class="btn light" href="https://wa.me/919855400520?text=Hello%20AAA%20Toys%2C%20I%20want%20to%20know%20about%20your%20products." target="_blank">WhatsApp us</a></div>
-<div class="meta"><div><strong>500+</strong><span>Happy families</span></div><div><strong>50+</strong><span>Curated toys</span></div><div><strong>4.9/5</strong><span>Customer love</span></div></div>
-</div>
-<div class="heroVisual">
-<div class="heroProduct" aria-label="AAA Toys premium product display"></div>
-<div class="heroCard right"><span class="label">Best seller</span><h3>Wooden Racer</h3><p>Timeless design and endless zoom-around fun.</p><div class="price"><span>₹899</span><span>⭐ 4.9</span></div></div>
-<div class="heroCard" style="bottom:20px; left:10px;"><span class="label">Gift ready</span><h3>Little Builder</h3><p>Fun learning, imaginative play, and family time.</p><div class="price"><span>₹699</span><span>New</span></div></div>
-</div>
-</div></section>
-
-<section class="section" id="shop">
-<div class="wrap">
-<div class="sectionHead"><span class="kicker">Curated collection</span><h2>Find their happy place</h2><p>From energetic play to thoughtful gifts, we have a collection for every imagination.</p></div>
-<div class="filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="cars">Cars</button><button class="filter" data-filter="learning">Learning</button><button class="filter" data-filter="soft">Soft toys</button><button class="filter" data-filter="games">Games</button></div>
-<div class="gallery">
-<article class="product" data-category="cars"><span class="badge">Bestseller</span><div class="productImage"><img src="https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=900&q=80" alt="Toy car"></div><div class="productBody"><h3>Wooden Racer</h3><p>Classic toy car for speed, smiles and nostalgic fun.</p><div class="productMeta"><span class="price">₹899 <small>₹1,299</small></span><button class="btn gold addBtn" data-name="Wooden Racer" data-price="899" data-image="https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=900&q=80">Add</button></div></div></article>
-<article class="product" data-category="learning"><span class="badge">New</span><div class="productImage"><img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=80" alt="Building blocks"></div><div class="productBody"><h3>Little Builder</h3><p>Build creative worlds with colour, shapes and imagination.</p><div class="productMeta"><span class="price">₹699 <small>₹990</small></span><button class="btn gold addBtn" data-name="Little Builder" data-price="699" data-image="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=80">Add</button></div></div></article>
-<article class="product" data-category="soft"><div class="productImage"><img src="https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=900&q=80" alt="Soft teddy bear"></div><div class="productBody"><h3>Honey Bear</h3><p>A cuddly companion for bedtime stories and sweet dreams.</p><div class="productMeta"><span class="price">₹549 <small>₹799</small></span><button class="btn gold addBtn" data-name="Honey Bear" data-price="549" data-image="https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=900&q=80">Add</button></div></div></article>
-<article class="product" data-category="games"><div class="productImage"><img src="https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=900&q=80" alt="Family board game"></div><div class="productBody"><h3>Game Night</h3><p>Screen-free fun for families and friends to enjoy together.</p><div class="productMeta"><span class="price">₹1,199 <small>₹1,699</small></span><button class="btn gold addBtn" data-name="Game Night" data-price="1199" data-image="https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=900&q=80">Add</button></div></div></article>
-<article class="product" data-category="cars"><div class="productImage"><img src="https://images.unsplash.com/photo-1503779156306-8eeabf9f4d3c?auto=format&fit=crop&w=900&q=80" alt="Remote control car"></div><div class="productBody"><h3>Storm Chaser</h3><p>A fast remote car with a bold look and great grip.</p><div class="productMeta"><span class="price">₹1,499 <small>₹2,199</small></span><button class="btn gold addBtn" data-name="Storm Chaser" data-price="1499" data-image="https://images.unsplash.com/photo-1503779156306-8eeabf9f4d3c?auto=format&fit=crop&w=900&q=80">Add</button></div></div></article>
-<article class="product" data-category="learning"><div class="productImage"><img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80" alt="Alphabet puzzle"></div><div class="productBody"><h3>Alphabet Puzzle</h3><p>Develop language skills with colourful letter learning.</p><div class="productMeta"><span class="price">₹649 <small>₹899</small></span><button class="btn gold addBtn" data-name="Alphabet Puzzle" data-price="649" data-image="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80">Add</button></div></div></article>
-<article class="product" data-category="soft"><span class="badge">Popular</span><div class="productImage"><img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80" alt="Cute plush toy"></div><div class="productBody"><h3>Cute Bunny</h3><p>Soft, safe and always ready for cuddle time.</p><div class="productMeta"><span class="price">₹599 <small>₹899</small></span><button class="btn gold addBtn" data-name="Cute Bunny" data-price="599" data-image="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80">Add</button></div></div></article>
-<article class="product" data-category="games"><div class="productImage"><img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80" alt="Kids outdoor game"></div><div class="productBody"><h3>Outdoor Fun</h3><p>Energy-filled play for active children and joyful afternoons.</p><div class="productMeta"><span class="price">₹899 <small>₹1,299</small></span><button class="btn gold addBtn" data-name="Outdoor Fun" data-price="899" data-image="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80">Add</button></div></div></article>
-</div>
-</div>
-</section>
-
-<section class="section" id="features"><div class="wrap"><div class="sectionHead"><span class="kicker">Why families choose us</span><h2>Thoughtful. Trusted. Joyful.</h2></div><div class="features"><div class="featureCard"><div class="featureIcon">✨</div><h3>Curated quality</h3><p>Each toy is selected for safety, creativity, and smiles that last far beyond playtime.</p></div><div class="featureCard"><div class="featureIcon">🎁</div><h3>Perfect gifts</h3><p>Need a birthday surprise or festive gift? We help you find something memorable and age-appropriate.</p></div><div class="featureCard"><div class="featureIcon">💬</div><h3>Friendly help</h3><p>Message us on WhatsApp and we will guide you to the best product for your child or occasion.</p></div></div></div></section>
-
-<section class="section" id="reviews"><div class="wrap"><div class="sectionHead"><span class="kicker">Customer love</span><h2>Parents keep coming back</h2></div><div class="testimonialGrid"><div class="quote"><div class="stars">★★★★★</div><p>“The toys are beautiful and exactly what I wanted for my child’s birthday. The staff was super helpful and kind.”</p><div class="person"><div class="avatar">A</div><div><strong>Aman</strong><br><small>Dhuri</small></div></div></div><div class="quote"><div class="stars">★★★★★</div><p>“I found the perfect gift here. The quality feels premium and the collection is very thoughtfully chosen.”</p><div class="person"><div class="avatar">K</div><div><strong>Komal</strong><br><small>Punjab</small></div></div></div><div class="quote"><div class="stars">★★★★★</div><p>“Very happy with the service and product quality. I appreciate the easy WhatsApp ordering experience.”</p><div class="person"><div class="avatar">S</div><div><strong>Sourav</strong><br><small>Dhuri</small></div></div></div></div></div></section>
-
-<section class="section storyWrap" id="about"><div class="wrap storyWrap"><div class="storyPanel"><span class="kicker" style="background:rgba(255,255,255,.1);color:#fff">Our story</span><h2>More than toys.<br>More memories.</h2><p>At AAA Toys, we believe childhood memories are made of play, wonder, and beautiful little moments. We bring you thoughtfully selected toys and gifts that help children learn, imagine, and grow with joy.</p></div><div class="storyImage"></div></div></section>
-
-<section class="section" id="faq"><div class="wrap"><div class="sectionHead"><span class="kicker">FAQs</span><h2>Everything you may want to know</h2></div><div class="faqWrap"><div class="faqItem open"><button class="faqQuestion"><span>Do you offer gift suggestions?</span><span>+</span></button><div class="faqAnswer">Yes, we are happy to suggest toys based on age, interest, and occasion. Just message us on WhatsApp and we can help.</div></div><div class="faqItem"><button class="faqQuestion"><span>Can I order by WhatsApp?</span><span>+</span></button><div class="faqAnswer">Absolutely. You can message us directly and we will confirm stock, pricing, and delivery details.</div></div><div class="faqItem"><button class="faqQuestion"><span>Do you have educational toys?</span><span>+</span></button><div class="faqAnswer">Yes. We stock lots of educational toys that support learning, creativity, sensory play and hands-on fun.</div></div><div class="faqItem"><button class="faqQuestion"><span>Do you serve Dhuri and nearby areas?</span><span>+</span></button><div class="faqAnswer">Yes. We cater to families and shoppers in Dhuri and nearby regions, with friendly local service.</div></div></div></div></section>
-
-<section class="section" id="contact"><div class="wrap"><div class="ctaBanner"><div><h3>Let’s make playtime special.</h3><p>Message us for gifts, toy suggestions, or custom recommendations.</p></div><div class="ctaRow"><a class="btn gold" href="https://wa.me/919855400520?text=Hello%20AAA%20Toys%2C%20I%20need%20help%20choosing%20a%20gift." target="_blank">WhatsApp now</a><a class="btn light" href="tel:9855400520">Call 9855400520</a></div></div></div></section>
-</main>
-<footer style="background:#1b2030;color:#fff;padding:28px 0;font-size:.74rem;letter-spacing:.12em;text-transform:uppercase"><div class="wrap" style="display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap"><span>AAA Toys · Dhuri</span><span>Made for more smiles</span></div></footer>
-
-<aside class="cart" aria-label="Shopping bag"><div class="cartHead"><h3>Your bag</h3><button class="closeCart" aria-label="Close bag" onclick="toggleCart()">×</button></div><div class="cartBody"><div class="cartItems"></div></div><div class="cartFooter"><div class="totalRow"><span>Total</span><strong>₹<span id="cartTotal">0</span></strong></div><a class="btn gold checkout" id="checkoutLink" href="https://wa.me/919855400520" target="_blank">Order on WhatsApp</a></div></aside>
-
-<script>
-const bag=[];
-const cart = document.querySelector('.cart');
-const cartItems = document.querySelector('.cartItems');
-const cartTotal = document.getElementById('cartTotal');
-const countEl = document.querySelector('.count');
-function toggleCart(){ cart.classList.toggle('open'); }
-function formatMoney(n){ return Number(n).toLocaleString('en-IN'); }
-function renderCart(){
-  const total = bag.reduce((sum,item)=>sum + item.price * item.qty, 0);
-  countEl.textContent = bag.reduce((sum,item)=>sum + item.qty, 0);
-  cartTotal.textContent = formatMoney(total);
-  if(!bag.length){
-    cartItems.innerHTML = '<div class="empty">Your bag is empty.</div>';
-    document.getElementById('checkoutLink').href = 'https://wa.me/919855400520';
-    return;
-  }
-  cartItems.innerHTML = bag.map((item,idx)=>`
-    <div class="cartItem">
-      <img src="${item.image}" alt="${item.name}">
-      <div class="cartItemMeta">
-        <strong>${item.name}</strong>
-        <span>₹${formatMoney(item.price)}</span>
-        <div class="qtyRow">
-          <div class="qtyControls">
-            <button type="button" onclick="updateQty(${idx}, -1)">−</button>
-            <span>${item.qty}</span>
-            <button type="button" onclick="updateQty(${idx}, 1)">+</button>
-          </div>
-          <button class="remove" type="button" onclick="removeItem(${idx})">Remove</button>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">🏆 Dhuri's happy toy destination</span>
+        <h1>Play bigger.<br><span class="pink">Smile brighter.</span></h1>
+        <p>Discover colorful toys, educational treasures, and wonderful gifts for every child. AAA Toys brings smiles, creativity and family fun together in one joyful place.</p>
+        <div class="actions">
+          <a class="btn primary" href="#shop">Explore toys</a>
+          <a class="btn secondary" href="https://wa.me/919855400520?text=Hello%20AAA%20Toys%2C%20I%20want%20to%20know%20more%20about%20your%20products." target="_blank">WhatsApp us</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>500+</strong><span>Happy families</span></div>
+          <div><strong>50+</strong><span>Toy picks</span></div>
+          <div><strong>4.9/5</strong><span>Local love</span></div>
+        </div>
+      </div>
+      <div class="visual">
+        <div class="hero-show"></div>
+        <div class="visual-card one">
+          <span class="badge">Best Seller</span>
+          <h3>Wooden Racer</h3>
+          <p>Classic toy car with vibrant colors and big fun.</p>
+          <div class="price"><span>₹899</span><span>⭐ 4.9</span></div>
+        </div>
+        <div class="visual-card two">
+          <span class="badge">Gift Ready</span>
+          <h3>Mini Builder</h3>
+          <p>Imagination, learning and happy little hands.</p>
+          <div class="price"><span>₹699</span><span>New</span></div>
         </div>
       </div>
     </div>
-  `).join('');
-  document.getElementById('checkoutLink').href = 'https://wa.me/919855400520?text=' + encodeURIComponent('Hello AAA Toys, I want to order: ' + bag.map(item => `${item.name} x${item.qty}`).join(', '));
-}
-function addToBag(name, price, image){
-  const item = bag.find(x => x.name === name);
-  if(item) item.qty += 1;
-  else bag.push({name, price, image, qty:1});
-  renderCart();
-  toggleCart();
-}
-function updateQty(index, delta){
-  const item = bag[index];
-  if(!item) return;
-  item.qty += delta;
-  if(item.qty <= 0) bag.splice(index, 1);
-  renderCart();
-}
-function removeItem(index){ bag.splice(index,1); renderCart(); }
+  </section>
 
-document.querySelectorAll('.addBtn').forEach(button => {
-  button.addEventListener('click', () => addToBag(button.dataset.name, Number(button.dataset.price), button.dataset.image));
+  <section class="section" id="categories">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Categories</span>
+        <h2>Find their happy place</h2>
+        <p>Shop by category and discover the perfect little surprise for every age and interest.</p>
+      </div>
+      <div class="category-grid">
+        <a class="cat-card" href="#shop"><div class="cat-icon">🏎️</div><h3>Toy Cars</h3></a>
+        <a class="cat-card" href="#shop"><div class="cat-icon">🚙</div><h3>Remote Cars</h3></a>
+        <a class="cat-card" href="#shop"><div class="cat-icon">🧱</div><h3>Blocks</h3></a>
+        <a class="cat-card" href="#shop"><div class="cat-icon">🧸</div><h3>Soft Toys</h3></a>
+        <a class="cat-card" href="#shop"><div class="cat-icon">🎁</div><h3>Gift Picks</h3></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="shop">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Customer favourites</span>
+        <h2>Popular picks</h2>
+        <p>Bright, playful and thoughtful toys selected for endless smiles and joyful playtime moments.</p>
+      </div>
+      <div class="products" id="productGrid">
+        <article class="product-card" data-name="Wooden Racer" data-category="cars" data-price="899" data-image="https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=900&q=80" data-description="Classic toy car for speed, smiles and happy little adventures." data-specs="Ages 3+ · Battery free · Safe finish">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1558060370-d644479cb6f7?auto=format&fit=crop&w=900&q=80" alt="Wooden Racer"><span class="tag">Hot</span></div>
+          <div class="product-body"><h3>Wooden Racer</h3><p>Classic toy car for speed, smiles and nostalgic fun.</p><div class="product-meta"><span class="price">₹899 <small>₹1,299</small></span><button class="btn primary small-btn open-product" type="button">View</button></div></div>
+        </article>
+        <article class="product-card" data-name="Little Builder" data-category="learning" data-price="699" data-image="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=80" data-description="Build imaginative worlds with bright blocks and easy-to-stack shapes." data-specs="Ages 4+ · 60 pieces · Non-toxic">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=900&q=80" alt="Little Builder"><span class="tag">New</span></div>
+          <div class="product-body"><h3>Little Builder</h3><p>Build imaginative worlds with colourful blocks.</p><div class="product-meta"><span class="price">₹699 <small>₹990</small></span><button class="btn primary small-btn open-product" type="button">View</button></div></div>
+        </article>
+        <article class="product-card" data-name="Honey Bear" data-category="soft" data-price="549" data-image="https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=900&q=80" data-description="Cozy, lovable companion for bedtime cuddles and playtime fun." data-specs="Ages 2+ · Soft plush · Washable">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1559454403-b8fb88521f11?auto=format&fit=crop&w=900&q=80" alt="Honey Bear"><span class="tag">Soft</span></div>
+          <div class="product-body"><h3>Honey Bear</h3><p>A cuddly companion for bedtime stories and sweet dreams.</p><div class="product-meta"><span class="price">₹549 <small>₹799</small></span><button class="btn primary small-btn open-product" type="button">View</button></div></div>
+        </article>
+        <article class="product-card" data-name="Game Night" data-category="games" data-price="1199" data-image="https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=900&q=80" data-description="Family game fun with bright pieces, easy rules and tons of laughs." data-specs="Ages 5+ · 2-6 players · Storage box">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=900&q=80" alt="Game Night"><span class="tag">Family</span></div>
+          <div class="product-body"><h3>Game Night</h3><p>Screen-free joy for family and friends to enjoy together.</p><div class="product-meta"><span class="price">₹1,199 <small>₹1,699</small></span><button class="btn primary small-btn open-product" type="button">View</button></div></div>
+        </article>
+        <article class="product-card" data-name="Storm Chaser" data-category="cars" data-price="1499" data-image="https://images.unsplash.com/photo-1503779156306-8eeabf9f4d3c?auto=format&fit=crop&w=900&q=80" data-description="Speedy remote control fun for children who love action and adventure." data-specs="Ages 6+ · Remote control · Rechargeable">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1503779156306-8eeabf9f4d3c?auto=format&fit=crop&w=900&q=80" alt="Storm Chaser"><span class="tag">Action</span></div>
+          <div class="product-body"><h3>Storm Chaser</h3><p>A bright, speedy remote car with bold style and fun.</p><div class="product-meta"><span class="price">₹1,499 <small>₹2,199</small></span><button class="btn primary small-btn open-product" type="button">View</button></div></div>
+        </article>
+        <article class="product-card" data-name="Alphabet Puzzle" data-category="learning" data-price="649" data-image="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80" data-description="Learn letters and shapes through colorful matching play." data-specs="Ages 3+ · 26 pieces · Eco-friendly">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=900&q=80" alt="Alphabet Puzzle"><span class="tag">Learning</span></div>
+          <div class="product-body"><h3>Alphabet Puzzle</h3><p>Colourful letters for learning through playful matching.</p><div class="product-meta"><span class="price">₹649 <small>₹899</small></span><button class="btn primary small-btn open-product" type="button">View</button></div></div>
+        </article>
+        <article class="product-card" data-name="Cute Bunny" data-category="soft" data-price="599" data-image="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80" data-description="A soft bunny friend for hugs, stories and cozy playtime." data-specs="Ages 1+ · Plush · Travel friendly">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80" alt="Cute Bunny"><span class="tag">Cute</span></div>
+          <div class="product-body"><h3>Cute Bunny</h3><p>Soft, lovable companion for bedtime stories and cuddles.</p><div class="product-meta"><span class="price">₹599 <small>₹899</small></span><button class="btn primary small-btn open-product" type="button">View</button></div></div>
+        </article>
+        <article class="product-card" data-name="Outdoor Fun" data-category="games" data-price="899" data-image="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80" data-description="Outdoor playtime essentials for active kids and family fun." data-specs="Ages 4+ · Active play · Durable">
+          <div class="product-image"><img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80" alt="Outdoor Fun"><span class="tag">Adventure</span></div>
+          <div class="product-body"><h3>Outdoor Fun</h3><p>Fun outdoor play essentials for active afternoons.</p><div class="product-meta"><span class="price">₹899 <small>₹1,299</small></span><button class="btn primary small-btn open-product" type="button">View</button></div></div>
+        </article>
+      </div>
+      <div class="banner">
+        <div><h3>More fun. Better deals.</h3><p>Birthday gifts, festival surprises and everyday playtime — ask us for today’s best offer.</p></div>
+        <a class="btn primary" href="https://wa.me/919855400520?text=Hello%20AAA%20Toys%2C%20I%20want%20your%20best%20deal%20today." target="_blank">Get today’s deal</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Why families choose us</span>
+        <h2>Great toys, friendly guidance</h2>
+      </div>
+      <div class="offer-grid">
+        <div class="offer-card"><div class="icon">✨</div><h3>Curated quality</h3><p>Each product is chosen for creativity, safety and smiles that last beyond the moment.</p></div>
+        <div class="offer-card"><div class="icon">🎁</div><h3>Perfect gifts</h3><p>Whether it’s a birthday, school reward or surprise, we help you pick the perfect item.</p></div>
+        <div class="offer-card"><div class="icon">💬</div><h3>Fast WhatsApp support</h3><p>Message us instantly for stock, pricing and recommendations.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Our story</span>
+        <h2>Made for wonder and play</h2>
+      </div>
+      <div class="contact-wrap">
+        <div class="info-card">
+          <h3>Why AAA Toys?</h3>
+          <p style="color:var(--muted);line-height:1.8;margin:0">At AAA Toys, we believe every child deserves joyful play, colourful imagination and thoughtful gifting. We bring together products that are fun, educational and memorable.</p>
+          <div class="info-list">
+            <div class="info-item"><div class="info-icon">📍</div><div><strong>Location</strong><br><span>Dhuri, Punjab</span></div></div>
+            <div class="info-item"><div class="info-icon">📞</div><div><strong>Call</strong><br><span>9855400520</span></div></div>
+            <div class="info-item"><div class="info-icon">💬</div><div><strong>WhatsApp</strong><br><span>Quick product support</span></div></div>
+          </div>
+        </div>
+        <div class="contact-card" id="contact">
+          <h3>Send an enquiry</h3>
+          <form onsubmit="event.preventDefault();alert('Thank you! Please WhatsApp AAA Toys for a quick reply.');">
+            <input placeholder="Your name" required>
+            <input type="tel" placeholder="Phone number" required>
+            <textarea placeholder="Tell us which toy or gift you are looking for..."></textarea>
+            <button class="btn primary" type="submit">Send enquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Reviews</span>
+        <h2>Parents love us</h2>
+      </div>
+      <div class="reviews">
+        <div class="review"><div class="stars">★★★★★</div><p>“The toys are beautiful and exactly what I wanted for my child’s birthday. The staff was super helpful and kind.”</p><div class="person"><div class="avatar">A</div><div><strong>Aman</strong><br><small>Dhuri</small></div></div></div>
+        <div class="review"><div class="stars">★★★★★</div><p>“I found the perfect gift here. The quality feels premium and the collection is very thoughtfully chosen.”</p><div class="person"><div class="avatar">K</div><div><strong>Komal</strong><br><small>Punjab</small></div></div></div>
+        <div class="review"><div class="stars">★★★★★</div><p>“Very happy with the service and product quality. I appreciate the easy WhatsApp ordering experience.”</p><div class="person"><div class="avatar">S</div><div><strong>Sourav</strong><br><small>Dhuri</small></div></div></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="wrap"><span>AAA Toys · Dhuri</span><span>Made for more smiles</span></div></footer>
+
+<div class="greeting-popup show" id="greetingPopup">
+  <div class="popup-card">
+    <button class="close-popup" aria-label="Close popup" type="button" id="closeGreeting">×</button>
+    <span class="mini">🎉 Welcome</span>
+    <h3>Welcome to AAA Toys!</h3>
+    <p>Explore colorful toys, thoughtful gifts and joyful little surprises made to bring smiles to every child.</p>
+    <div class="popup-actions">
+      <a class="btn primary" href="#shop">Shop now</a>
+      <a class="btn secondary" href="https://wa.me/919855400520" target="_blank">WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="productModal" aria-hidden="true">
+  <div class="modal-card">
+    <button class="modal-close" type="button" id="closeModal">×</button>
+    <div class="modal-grid">
+      <div class="modal-image" id="modalImage"></div>
+      <div class="modal-info">
+        <h3 id="modalTitle">Product</h3>
+        <p id="modalDescription">Product description</p>
+        <div class="modal-price"><strong id="modalPrice">₹0</strong><span class="badge" id="modalBadge">Popular</span></div>
+        <div class="modal-meta">
+          <div class="meta-box"><strong id="meta1">3+</strong><span>Age</span></div>
+          <div class="meta-box"><strong id="meta2">Safe</strong><span>Finish</span></div>
+          <div class="meta-box"><strong id="meta3">Gift</strong><span>Ready</span></div>
+        </div>
+        <div class="modal-actions">
+          <button class="btn primary" type="button" id="addToBagBtn">Add to bag</button>
+          <button class="btn secondary" type="button" id="closeModalBtn">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+const navLinks = document.querySelector('.nav-links');
+const menuBtn = document.getElementById('menuBtn');
+menuBtn.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
 });
-document.querySelectorAll('.filter').forEach(filter => {
-  filter.addEventListener('click', () => {
-    document.querySelectorAll('.filter').forEach(x => x.classList.remove('active'));
-    filter.classList.add('active');
-    const selected = filter.dataset.filter;
-    document.querySelectorAll('.product').forEach(product => {
-      const show = selected === 'all' || product.dataset.category === selected;
-      product.classList.toggle('hidden', !show);
-    });
+
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => navLinks.classList.remove('open'));
+});
+
+const greetingPopup = document.getElementById('greetingPopup');
+const closeGreeting = document.getElementById('closeGreeting');
+closeGreeting.addEventListener('click', () => greetingPopup.classList.remove('show'));
+
+togglePopup = () => greetingPopup.classList.add('show');
+setTimeout(() => greetingPopup.classList.add('show'), 300);
+
+document.getElementById('closeGreeting').addEventListener('click', () => {
+  greetingPopup.classList.remove('show');
+});
+
+const modal = document.getElementById('productModal');
+const modalImage = document.getElementById('modalImage');
+const modalTitle = document.getElementById('modalTitle');
+const modalDescription = document.getElementById('modalDescription');
+const modalPrice = document.getElementById('modalPrice');
+const modalBadge = document.getElementById('modalBadge');
+const addToBagBtn = document.getElementById('addToBagBtn');
+const closeModal = document.getElementById('closeModal');
+const closeModalBtn = document.getElementById('closeModalBtn');
+
+let activeProduct = null;
+
+function openProductModal(product) {
+  activeProduct = product;
+  const name = product.dataset.name;
+  const price = Number(product.dataset.price);
+  const image = product.dataset.image;
+  const description = product.dataset.description || 'A fun, colorful product for happy playtime.';
+  const specs = product.dataset.specs || 'Ages 3+ · Safe finish';
+
+  modalTitle.textContent = name;
+  modalDescription.textContent = description;
+  modalPrice.textContent = `₹${price.toLocaleString('en-IN')}`;
+  modalBadge.textContent = name.includes('Builder') ? 'New' : name.includes('Racer') ? 'Hot' : 'Popular';
+  modalImage.style.backgroundImage = `url('${image}')`;
+
+  const parts = specs.split('·');
+  document.getElementById('meta1').textContent = parts[0].trim();
+  document.getElementById('meta2').textContent = parts[1]?.trim() || 'Safe';
+  document.getElementById('meta3').textContent = parts[2]?.trim() || 'Gift';
+
+  modal.classList.add('show');
+}
+
+closeModal.addEventListener('click', () => modal.classList.remove('show'));
+closeModalBtn.addEventListener('click', () => modal.classList.remove('show'));
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) modal.classList.remove('show');
+});
+
+document.querySelectorAll('.open-product').forEach(button => {
+  button.addEventListener('click', () => {
+    const card = button.closest('.product-card');
+    openProductModal(card);
   });
 });
-document.querySelector('.menuBtn').addEventListener('click', () => {
-  document.querySelector('.navLinks').classList.toggle('open');
+
+addToBagBtn.addEventListener('click', () => {
+  if (!activeProduct) return;
+  const item = { name: activeProduct.dataset.name, price: Number(activeProduct.dataset.price), image: activeProduct.dataset.image, qty: 1 };
+  const existing = bag.find(x => x.name === item.name);
+  if (existing) existing.qty += 1;
+  else bag.push(item);
+  renderBag();
+  modal.classList.remove('show');
 });
-document.querySelectorAll('.navLinks a').forEach(link => link.addEventListener('click', () => document.querySelector('.navLinks').classList.remove('open')));
-document.querySelectorAll('.faqQuestion').forEach(question => {
-  question.addEventListener('click', () => {
-    const item = question.parentElement;
-    item.classList.toggle('open');
+
+const bag = [];
+const cartCount = document.querySelector('.count');
+function renderBag(){
+  const totalQty = bag.reduce((sum, item) => sum + item.qty, 0);
+  cartCount.textContent = totalQty;
+}
+
+const searchInput = document.getElementById('searchInput');
+searchInput.addEventListener('input', () => {
+  const q = searchInput.value.trim().toLowerCase();
+  document.querySelectorAll('.product-card').forEach(card => {
+    const name = card.dataset.name.toLowerCase();
+    const visible = !q || name.includes(q);
+    card.classList.toggle('hidden', !visible);
   });
 });
-renderCart();
 </script>
 </body>
 </html>
